@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: white; text-align: center;">
+   
+        <div id="skrita">
+        <h1 style="margin-top: 30px; font-size: 60px;">Машините завлядаха света </h1>
+        <h2 style="font-size: 40px;">Трябва да ги спреш като играеш</h2>
+        <h2 style="font-size: 35px; margin-top: 20px;">Камък, ножица, хартия</h2>
+        <h2 style="font-size: 35px; margin-top: 20px;">Печели първият с 5 победи</h2>
+        <button onclick="showDivGame()" style="padding: 10 20px; border-radius: 10px; font-weight: bold; font-size: 20px; background-color: violet; cursor: pointer;">Готов съм</button>
+    </div>
+    <div id="divgame" style="display: none; justify-content: space-evenly;; margin-top: 30px; ">
+        <button id="btnkamuk" onclick="kamuk()" style="border: 1px solid white;background-color: black; padding: 10px;border-radius: 5px; cursor: pointer;font-size: 100px">🗻</button>
+        <button onclick="nojica()" style="border: 1px solid white;background-color: black; padding: 10px 10px 10px 15px;border-radius: 5px; cursor: pointer;font-size: 100px">✂️</button>
+        <button onclick="hartiq()" style="border: 1px solid white;background-color: black; padding: 10px;border-radius: 5px; cursor: pointer;font-size: 100px">📜</button>
+    </div>
+    <p id="rezultat" style="font-size: 50px;"></p>
+    <div style="display: flex; justify-content: space-evenly; margin-top: 70px;">
+        <div>
+            <p style="font-size: 40px;">ТИ</p>
+            <span id="pobedi" style="font-size: 100px;">0</span>
+        </div>  
+        <div>
+            <P style="font-size: 40px;">Машините</P>
+            <span id="zagubi" style="font-size: 100px;"> 0</span>
+        </div>
+    </div>
+    <p id="ravenstvo" style="font-size: 30px;"></p>
+   
+
+</body>
+<script src="script.js"></script>
+</html>
