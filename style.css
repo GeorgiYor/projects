@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    background-color: rgba(216, 216, 216, 0.475);
+}
+#header{
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+#add{
+    border: none;
+    margin-top: 30px;
+    padding: 15 30px;
+    border-radius: 5px;
+    background-color: rgba(231, 230, 230, 0.475);
+    font-weight: bold;
+    font-size: 18px;
+}
+#add:hover{
+    background-color: rgba(128, 128, 128, 0.5);
+    cursor: pointer;
+}
+#flexie{
+    display: flex;
+    justify-content: center;
+}
+#dia input{
+    margin-bottom: 10px;
+}
+.de{
+    display: inline-block;
+    width: 10vw;
+    margin: 20px 4.5vw;
+    border: 1px solid black;
+    color: white;
+    background-color: rgba(48, 48, 48, 0.75);
+    text-align: center;
+    padding: 0px 40px 30px;
+    border-radius: 5px;
+}
+.de h3{
+    font-size: 22px;
+    margin-top: 15px;
+}
+.de p{
+    font-size: 18px;
+}
+.de button{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10 30;
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+}
+.de .statusgr{
+    background-color: green;
+    cursor: pointer;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.de .statusred{
+    background-color: red;
+    cursor: pointer;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+#nwbook{
+    padding: 5 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#nwbook:hover{
+    background-color: rgb(220, 220, 220);
+}

@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="header">
+        <h1>Библиотека</h1>
+    </div>
+
+    <div id="flexie">
+        <button id="add" onclick="openDialog()">+ Нова книга</button>
+    </div>
+   
+
+    <dialog id="dia">
+        <button onclick="closeDialog()">x</button>
+        <form method="dialog" style="margin: 30px;">
+            <label for="">Име на автора</label><br>
+            <input type="text" id="name" ><br>
+            <label for="">Име на книгата</label><br>
+            <input type="text" id="author" ><br>
+            <label for="">Брой страници</label><br>
+            <input type="number" id="pages" ><br>
+            <label for="status">Прочели ли сте я?</label>
+            <input type="checkbox" id="status" name="status" value="read"><br>
+            
+            <button onclick="addBookToLibrary()" id="nwbook">Нова книга</button>
+        </form>  
+    </dialog>
+
+    <div id="divvie">
+
+    </div>
+    
+
+</body>
+<script src="script.js"></script>
+</html>
